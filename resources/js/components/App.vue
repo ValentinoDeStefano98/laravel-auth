@@ -6,7 +6,7 @@
                     <Header/>
 
                     <div class="card-body">
-                        Sito in costruzione
+                        <h2>Sito in costruzione</h2>
                     </div>
                 </div>
             </div>
