@@ -137,7 +137,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "header"
 });
@@ -667,8 +666,26 @@ render._withStripped = true
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {}
-var staticRenderFns = []
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("header", [
+      _c("img", {
+        staticClass: "logo",
+        attrs: { src: __webpack_require__(/*! ./../../../public/img/NASA_logo.png */ "./public/img/NASA_logo.png"), alt: "" },
+      }),
+    ])
+  },
+]
+render._withStripped = true
 
 
 
@@ -12849,6 +12866,17 @@ try {
 
 module.exports = g;
 
+
+/***/ }),
+
+/***/ "./public/img/NASA_logo.png":
+/*!**********************************!*\
+  !*** ./public/img/NASA_logo.png ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/NASA_logo.png?55a9012b501d4ad73887135ac49d4622";
 
 /***/ }),
 

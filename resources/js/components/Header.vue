@@ -1,7 +1,6 @@
 <template>
     <header>
-        ciao
-        <img src="{{asset('img/NASA_logo.png')}}" alt="">
+        <img class="logo" src="./../../../public/img/NASA_logo.png" alt="">
     </header>
 </template>
 
