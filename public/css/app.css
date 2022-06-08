@@ -1,6 +1,4 @@
-@charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Nunito);
-@import '/resources/sass/app.scss';
+@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.6.1 (https://getbootstrap.com/)
@@ -3975,8 +3973,8 @@ input[type=button].btn-block {
   display: block;
   min-height: 1.44rem;
   padding-left: 1.5rem;
-  /* -webkit-print-color-adjust: exact; */
-  accent-color: exact;
+  -webkit-print-color-adjust: exact;
+          color-adjust: exact;
 }
 
 .custom-control-inline {
@@ -10965,10 +10963,6 @@ a.text-dark:focus {
 }
 
 .logo {
-  width: 400px;
-}
-
-.text {
-  color: red;
+  width: 200px;
 }
 

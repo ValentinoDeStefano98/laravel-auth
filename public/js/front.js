@@ -629,12 +629,7 @@ var render = function () {
   return _c("div", { staticClass: "container" }, [
     _c("div", { staticClass: "row justify-content-center" }, [
       _c("div", { staticClass: "col-md-8" }, [
-        _c(
-          "div",
-          { staticClass: "card" },
-          [_c("Header"), _vm._v(" "), _vm._m(0)],
-          1
-        ),
+        _c("div", [_c("Header"), _vm._v(" "), _vm._m(0)], 1),
       ]),
     ]),
   ])
@@ -645,7 +640,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "card-body" }, [
-      _c("h2", [_vm._v("Sito in costruzione")]),
+      _c("h2", { staticClass: "text" }, [_vm._v("Sito in costruzione")]),
     ])
   },
 ]
@@ -680,7 +675,10 @@ var staticRenderFns = [
     return _c("header", [
       _c("img", {
         staticClass: "logo",
-        attrs: { src: __webpack_require__(/*! ./../../../public/img/NASA_logo.png */ "./public/img/NASA_logo.png"), alt: "" },
+        attrs: {
+          src: __webpack_require__(/*! ./../../../public/img/NASA_logo.png */ "./public/img/NASA_logo.png"),
+          alt: "logo nasa",
+        },
       }),
     ])
   },

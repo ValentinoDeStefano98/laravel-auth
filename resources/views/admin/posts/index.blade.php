@@ -8,8 +8,10 @@
                 {{ session('message') }}
             </div>
         @endif
-
-        <a href="{{route('admin.posts.create')}}" class="btn btn-success">Crea post</a>
+        <div class="pb-4">
+            <a href="{{route('admin.posts.create')}}" class="btn btn-success">Crea post</a>
+        </div>
+        
 
         <table class="table table-dark">
             <thead>
@@ -40,7 +42,7 @@
                                 <button type="submit" class="btn btn-danger">Delete</button>
                             </form> -->
                             @include('includes.deletePost')
-                            <a href="{{route('admin.posts.edit', $post->id)}}" class="btn btn-primary">Edit</a>
+                            <a href="{{route('admin.posts.edit', $post->id)}}" class="btn btn-warning">Edit</a>
                         </td>
                     </tr>
                 @empty

@@ -1,6 +1,6 @@
 <template>
     <header>
-        <img class="logo" src="./../../../public/img/NASA_logo.png" alt="">
+        <img class="logo" src="./../../../public/img/NASA_logo.png" alt="logo nasa">
     </header>
 </template>
 

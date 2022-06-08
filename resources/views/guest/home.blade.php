@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="./../../sass/app.scss">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
         <title>Laravel</title>
 
@@ -71,6 +71,7 @@
                 <div class="top-right links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{route('login')}}">Sezione Admin</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
 
