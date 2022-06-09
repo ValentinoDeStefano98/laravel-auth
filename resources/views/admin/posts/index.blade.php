@@ -28,6 +28,14 @@
                     <tr>
                         <th>{{$post->title}}</th>
                         <td>
+                            
+                            @if($post->category)
+                                <span class="badge badge-pill badge-{{$post->Category->color}}">{{$post->Category->label}}</span>
+                            @else
+                                -
+                            @endif
+                        </td>
+                        <td>
                             <p>{{$post->content}}</p>
                         </td>
                         <td>
